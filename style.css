@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset_button {
+    width: 170px;
+    height: 55px;
+    font-size: 1.2em;
+    color: #222;
+    margin: 20px 0 0 20px;
+}
+
+.game_logic {
+    color: #eee;
+    margin: 20px 20px 0 0;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_title {
+    color: #eee;
+    font-size: 2.5em;
+}
