@@ -4,6 +4,7 @@ let scoreNumber = 20;
 let highscore = 0;
 
 document.querySelector(".number_button").addEventListener("click", mainOperation);
+document.querySelector(".reset_button").addEventListener("click", resetOperation);
 
 function mainOperation() {
     const userInput = Number(document.querySelector('.input').value);
@@ -27,5 +28,11 @@ function mainOperation() {
     }
 };
 
-
-
+function resetOperation() {
+    document.querySelector(".random_number").textContent = "?";
+    document.querySelector(".messege").textContent = "Start guessing...";
+    document.querySelector("body").style.backgroundColor = "#222";
+    document.querySelector('.input').value = "";
+    document.querySelector(".score").textContent = "💯 Score: 20";
+    
+}
