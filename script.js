@@ -1,4 +1,4 @@
-const randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 20) + 1;
 console.log(randomNumber)
 let scoreNumber = 20;
 let highscore = 0;
@@ -34,5 +34,5 @@ function resetOperation() {
     document.querySelector("body").style.backgroundColor = "#222";
     document.querySelector('.input').value = "";
     document.querySelector(".score").textContent = "💯 Score: 20";
-    
+    randomNumber = Math.floor(Math.random() * 20) + 1;
 }
